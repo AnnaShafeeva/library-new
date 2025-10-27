@@ -19,12 +19,10 @@ const userSchema = new mongoose_1.Schema({
     },
     firstName: {
         type: String,
-        unique: true,
         required: true,
     },
     secondName: {
         type: String,
-        unique: true,
         required: true,
     },
 });

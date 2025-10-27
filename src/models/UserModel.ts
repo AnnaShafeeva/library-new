@@ -25,12 +25,10 @@ const userSchema = new Schema<IUserDocument>({
     },
     firstName: {
         type: String,
-        unique: true,
         required: true,
     },
     secondName: {
         type: String,
-        unique: true,
         required: true,
     },
 });
